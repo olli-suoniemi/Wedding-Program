@@ -1,0 +1,1184 @@
+@font-face {
+  font-family: 'Adam_Script';
+  src: url('./assets/fonts/Adam Script.otf') format('otf'),
+       url('./assets/fonts/Adam Script.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto_Sans_Mono';
+  src: url('./assets/fonts/NotoSansMono-Black.ttf') format('truetype');
+}
+
+/* GENERAL */
+.infoContainerForContainer{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  background-color: #33433c
+}
+
+/* GENERAL */
+.bord{
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* GENERAL */
+.loginButton{
+  text-align: center;
+}
+
+/* GENERAL */
+.loginPageContainerForInputAndButton{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* GENERAL */
+.notFoundContainer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* GENERAL */
+.enrollmentsContainer{
+  background-color: #f8f7f6;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* GENERAL */
+.infoTitle{
+  color: #a17d60;
+  font-size: 0.75vw;
+  font-weight: bold;
+}
+
+/* GENERAL */
+.whitetext{
+  color: #986c4a;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 0.75vw;
+}
+
+/* GENERAL */
+.whitetextTitle{
+  color: #986c4a;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 0.85vw;
+  font-weight: bolder;
+}
+
+/* GENERAL */
+.whitetextTitleEnroll{
+  color: #986c4a;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 0.85vw;
+  font-weight: bolder;
+}
+
+/* GENERAL */
+.radioText{
+  color: #986c4a;
+  font-size: 0.75vw;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/* GENERAL */
+.basicwhiteText{
+  color: #ffffff;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/* GENERAL */
+.basicwhiteTextEnroll{
+  color: #986c4a;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 0.75vw;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+/* GENERAL */
+.basicwhiteTextEnrollList{
+  color: #986c4a;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 0.75vw;
+  padding-left: 10px;
+  text-align: center;
+}
+
+/* GENERAL */
+.asterixText{
+  color: #986c4a;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 0.75vw;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+/* GENERAL */
+.whitetextBotttomBlockLine{
+  color: #986c4a;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 0.75vw;
+  padding-bottom: 10px;
+  margin: 20px;
+  border-bottom: 2px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+}
+
+/* GENERAL */
+.whitetextBotttomBlockLineThick{
+  color: #986c4a;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 0.75vw;
+  padding-bottom: 10px;
+  margin: 20px;
+  border-bottom: 10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+}
+
+/* GENERAL */
+.whitetextBotttomBlockLineEnrollment{
+  color: #986c4a;
+  text-align: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 3.8vw;
+  padding-bottom: 1vh;
+  margin: 2vh;
+  border-bottom: 1px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+}
+
+/* GENERAL */
+.whitetextLink{
+  color: #ca7d43;
+  text-align: center;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 0.75vw;
+}
+
+/* GENERAL */
+.enrollmentBlock{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* GENERAL */
+body{
+  background-color: #2b3f36;
+}
+
+/* GENERAL */
+.loginPageItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* GENERAL */
+.loginPageContainerV {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: 50px 50px;
+  min-height: 98vh;
+}
+
+/* GENERAL */
+.loginPageContainerH {
+  display: flex;
+  justify-content: center;
+}
+
+/* GENERAL */
+.loginTitle {
+  text-align: center;
+  color: #a17d60;
+  font-size: 35px;
+  font-family: 'Noto_Sans_Mono', Arial, Helvetica, sans-serif;
+}
+
+/* GENERAL */
+.loginInput{
+  text-align: center;
+  background-color: #a17d60;
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* GENERAL */
+.homePageContainerV {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* GENERAL */
+.homePageContainerForContainers {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: #33433c;
+  padding-bottom: 1%;
+}
+
+/* GENERAL */
+.homePageWelcomeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f7f6;
+  border-color: #a17d60;
+  border-style: solid;
+  border-width: 10px;
+}
+
+/* GENERAL */
+.homePageWelcomeContainerTextBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+/* GENERAL */
+.homePageWelcomeTitle{
+  font-size: 2vw;
+  font-family: 'Adam_Script', Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+
+/* GENERAL */
+.homePageWelcomeDate{
+  font-size: 1.2vw;
+  font-family: 'Courier New';
+  color: #986c4a;
+  margin: 10px;
+}
+
+/* GENERAL */
+.homePageWelcomeText{
+  font-size: 1.2vw;
+  margin: 10px;
+}
+
+/* GENERAL */
+.homePageContainerForBalls{
+  padding-top: 2.5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* GENERAL */
+.ballText{
+  font-family: 'Courier New';
+  color: #986c4a;
+  font-size: 13px;
+}
+
+/* GENERAL */
+.ballButton{
+  border-width: 0;
+  background-color: #f2ebe6;
+  padding: 10
+}
+
+/* GENERAL */
+.infoBackButton{
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 1%;
+  padding-left: 4%;
+}
+
+/* GENERAL */
+.infoContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  
+  border-top-style: solid;
+  border-color: #a17d60;
+}
+
+/* GENERAL */
+.navBar{
+  padding-bottom: 15px;
+}
+
+/* GENERAL */
+.containerImageBox{
+  margin: auto;
+  width: 250px;
+  position: relative;
+}
+
+/* GENERAL */
+.containerImageBoxKepu{
+  margin: auto;
+  width: 250px;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+/* GENERAL */
+.imgCustom {
+  width: 100%;
+}
+
+/* GENERAL */
+.block {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  box-shadow: inset -5px -5px 5px 10px #f8f7f6;
+}
+
+/* GENERAL */
+.mapDiv {
+  text-align: center;
+}
+
+
+/* DESKTOP */
+/* If the screen size is 1350px wide or more */
+@media screen and (min-width: 1350px) {
+
+  /* DESKTOP */
+  .logInImageBox{
+    max-height: 650px;
+    width: auto;
+  }
+  
+  /* DESKTOP */
+  .homePageWelcomeContainerImageBox{
+    min-height: 200px;
+    height: 12vw;
+    width: auto;
+  }
+  
+  /* DESKTOP */
+  .homePageInfoBall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+    min-width: 250px;
+    height: 12vw;
+    width: 12vw;
+    border-radius: 50%;
+    background-color: #f8f7f6;
+    border-style: solid;
+    border-color: #a17d60;
+    border-width: 5px;
+    background-image: radial-gradient(circle at 5px 5px, #405d51 5px, transparent 0);
+    background-size: 50px 54px;
+  }
+  
+  /* DESKTOP */
+  .infoContainer{
+    background-color: #f8f7f6;
+    width: 40vw;
+    min-height: 60vh;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* TABLET 1*/
+/* If the screen width is between 1038px and 1350px */
+@media screen and (min-width: 1038px) and (max-width: 1350px) {
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .logInImageBox{
+    max-height: 50vw;
+    width: auto;
+  }
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .homePageWelcomeContainerImageBox {
+    max-height: 30vw;
+    width: auto;
+  }
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .homePageWelcomeTitle{
+    font-size: 4vw;
+    margin: 1px;
+    font-family: 'Adam_Script', Arial, Helvetica, sans-serif;
+  }
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .homePageWelcomeDate{
+    font-size: 3vw;
+    font-family: 'Courier New';
+    color: #986c4a;
+  }
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .homePageWelcomeText{
+    margin: 1px;
+    font-size: 3vw;
+  }
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .homePageInfoBall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 310px;
+    min-width: 310px;
+    border-radius: 50%;
+    background-color: #f8f7f6;
+    border-style: solid;
+    border-color: #a17d60;
+    border-width: 5px;
+    background-image: radial-gradient(circle at 5px 5px, #405d51 5px, transparent 0);
+    background-size: 50px 54px;
+  }
+  
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .infoContainer{
+    background-color: #f8f7f6;
+    width: 60vw;
+    min-height: 60vh;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .whitetextTitleEnroll{
+    color: #986c4a;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+    font-weight: bolder;
+  }
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .radioText{
+    color: #986c4a;
+    font-size: 2vw;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  }
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .basicwhiteTextEnroll{
+    color: #986c4a;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .whitetextLink{
+    color: #ca7d43;
+    text-align: center;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+  }
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .infoTitle{
+    color: #a17d60;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .whitetextTitle{
+    color: #986c4a;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+  }
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .whitetext{
+    color: #986c4a;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+  }
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .whitetextBotttomBlockLine{
+    color: #986c4a;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    padding-bottom: 1vh;
+    margin: 2vh;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+  }
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .asterixText{
+    color: #986c4a;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+
+  /* TABLET 1 */
+  /* If the screen width is between 1038px and 1350px */  
+  .basicwhiteTextEnrollList{
+    color: #986c4a;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    padding-left: 5px;
+    text-align: center;
+  }
+}
+
+/* TABLET 2*/
+/* If the screen width is between 670px and 1038px */
+@media screen and (min-width: 670px) and (max-width: 1038px) {
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .logInImageBox{
+    max-height: 55vw;
+    width: auto;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .homePageInfoBall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 310px;
+    max-width: 310px;
+    height: 29vw;
+    width: 29vw;
+    border-radius: 50%;
+    background-color: #f8f7f6;
+    border-style: solid;
+    border-color: #a17d60;
+    border-width: 2px;
+    background-image: radial-gradient(circle at 5px 5px, #405d51 5px, transparent 0);
+    background-size: 50px 54px;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .mainButton{
+    width: 20vw;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .infoContainerForContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #33433c;
+    min-width: 90vw;
+  }
+  
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .infoContainer{
+    background-color: #f8f7f6;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    padding-bottom: 5%;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .whitetextTitleEnroll{
+    color: #986c4a;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+    font-weight: bolder;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .radioText{
+    color: #986c4a;
+    font-size: 2vw;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .basicwhiteTextEnroll{
+    color: #986c4a;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+
+  .whitetextLink{
+    color: #ca7d43;
+    text-align: center;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .infoTitle{
+    color: #a17d60;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .whitetextTitle{
+    color: #986c4a;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .whitetext{
+    color: #986c4a;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .whitetextBotttomBlockLine{
+    color: #986c4a;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    padding-bottom: 1vh;
+    margin: 2vh;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .asterixText{
+    color: #986c4a;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .basicwhiteTextEnrollList{
+    color: #986c4a;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    padding-left: 5px;
+    text-align: center;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .containerImageBox{
+    margin: auto;
+    width: 200px;
+    position: relative;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .imgCustom {
+    width: 100%;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .block {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    box-shadow: inset -3px -3px 3px 8px #f8f7f6;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .homePageContainerForContainers {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #33433c;
+    min-width: 80vw;
+    padding-bottom: 5%;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .homePageWelcomeContainerImageBox {
+    max-height: 34vw;
+    width: auto;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .homePageWelcomeTitle{
+    font-size: 5vw;
+    margin: 1px;
+    font-family: 'Adam_Script', Arial, Helvetica, sans-serif;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .homePageWelcomeDate{
+    font-size: 4vw;
+    font-family: 'Courier New';
+    color: #986c4a;
+  }
+
+  /* TABLET 2*/
+  /* If the screen width is between 670px and 1038px */
+  .homePageWelcomeText{
+    margin: 1px;
+    font-size: 4vw;
+  }
+}
+
+/* MOBILE */
+/* If the screen size is 670px wide or less */
+@media screen and (max-width: 670px) {
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .loginTitle {
+    text-align: center;
+    color: #a17d60;
+    font-size: 5vw;
+    font-family: 'Noto_Sans_Mono', Arial, Helvetica, sans-serif;
+  }
+  
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .logInImageBox{
+    max-height: 80vw;
+    width: auto;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .loginInput{
+    text-align: center;
+    background-color: #a17d60;
+    width: 40vw;
+    border-radius: 10px;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .homePageContainerForContainers {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #33433c;
+    min-width: 90vw;
+    padding-bottom: 5%;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .homePageWelcomeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f7f6;
+    border-color: #a17d60;
+    border-style: solid;
+    border-width: 4px;
+    margin-bottom: 5px;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .homePageWelcomeContainerImageBox {
+    max-height: 34vw;
+    width: auto;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .homePageWelcomeTitle{
+    font-size: 5vw;
+    margin: 1px;
+    font-family: 'Adam_Script', Arial, Helvetica, sans-serif;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .homePageWelcomeDate{
+    font-size: 4vw;
+    font-family: 'Courier New';
+    color: #986c4a;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .homePageWelcomeText{
+    margin: 1px;
+    font-size: 4vw;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  /* Set the "balls" to be in column instead of a row */
+  .homePageContainerForBalls{
+    display: flex;
+    flex-direction: column;
+    border-width: 0px;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  /* Balls are not balls in mobile, instead are just buttons */
+  .homePageInfoBall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .ballText{
+    font-family: 'Courier New';
+    font-size: 3.2vw;
+    color: #986c4a;
+  }
+  
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .infoContainerForContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #33433c;
+    min-width: 90vw;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .infoContainer{
+    background-color: #f8f7f6;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    padding-bottom: 5%;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .infoTitle{
+    color: #a17d60;
+    font-size: 3.2vw;
+    font-weight: bold;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .infoBackButton{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .whitetextTitle{
+    color: #986c4a;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3.3vw;
+    font-weight: bolder;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .whitetextTitleEnroll{
+    color: #986c4a;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3.3vw;
+    font-weight: bolder;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .radioText{
+    color: #986c4a;
+    font-size: 3.1vw;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  }
+  
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .basicwhiteText{
+    color: #ffffff;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .basicwhiteTextEnroll{
+    color: #986c4a;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3.1vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .whitetext{
+    color: #986c4a;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3.1vw;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .whitetextBotttomBlockLine{
+    color: #986c4a;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3.2vw;
+    padding-bottom: 1vh;
+    margin: 2vh;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .whitetextBotttomBlockLineThick{
+    color: #986c4a;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3.2vw;
+    padding-bottom: 1vh;
+    margin: 2vh;
+    border-bottom: 1.5vw;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .whitetextBotttomBlockLineEnrollment{
+    color: #986c4a;
+    text-align: center;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3.8vw;
+    padding-bottom: 1vh;
+    margin: 2vh;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+  }
+  
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .whitetextLink{
+    color: #ca7d43;
+    text-align: center;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3.3vw;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .asterixText{
+    color: #986c4a;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3.3vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+
+  .basicwhiteTextEnrollList{
+    color: #986c4a;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 3.2vw;
+    padding-left: 5px;
+    text-align: center;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .containerImageBox{
+    margin: auto;
+    width: 200px;
+    position: relative;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .containerImageBoxKepu{
+    margin: auto;
+    width: 200px;
+    position: relative;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .imgCustom {
+    width: 100%;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .block {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    box-shadow: inset 0px 0px 10px 10px #f8f7f6;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .navBar{
+    padding-bottom: 0px;
+  }
+
+  /* MOBILE */
+  /* If the screen size is 670px wide or less */
+  .mapDiv {
+    text-align: center;
+  }
+
+  .mapFrame {
+    width: 50vw;
+  }
+}

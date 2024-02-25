@@ -1,0 +1,5 @@
+.env
+create_pw.js
+
+/node_modules
+/build
