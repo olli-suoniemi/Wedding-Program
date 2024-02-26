@@ -25,7 +25,7 @@ CREATE TABLE enrollments(
 
 ## Installation
 
-To install the project, run `npm install`.
+To install the dependencies for backend, run `npm install`.
 
 Create .env file to and insert there values for variables `PORT` and `CONNECTION_DEV`. `PORT` is the connection port for backend
 and `CONNECTION_DEV` is the URL for your database.

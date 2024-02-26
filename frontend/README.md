@@ -4,7 +4,7 @@ A frontend for the wedding web app.
 
 ## Installation
 
-To install the project, run `npm install`.
+To install the dependencies for frontend, run `npm install`.
 
 ## Scripts
 
