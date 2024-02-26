@@ -1,4 +1,10 @@
-Database table create queries:
+# What
+
+A backend for the wedding web app. 
+
+## Database tables
+
+Here are the queries for creating the database tables:
 
 CREATE TABLE users (
   id SERIAL PRIMARY KEY,
@@ -17,6 +23,23 @@ CREATE TABLE enrollments(
   created timestamp
 );
 
+## Installation
+
+To install the project, run `npm install`.
+
+Create .env file to and insert there values for variables `PORT` and `CONNECTION_DEV`. `PORT` is the connection port for backend
+and `CONNECTION_DEV` is the URL for your database.
+
+## Scripts
+
+- `start`: Starts the application in production mode.
+- `dev`: Starts the application in development mode.
+- `build:ui`: Builds the frontend of the application and moves it to the back directory.
+- `deploy`: Deploys the application using flyctl.
+- `deploy:full`: Builds the UI and then deploys the application.
+- `logs:prod`: Shows the production logs using flyctl.
+
+## Notes
 
 Instructions for serving static files:
 
