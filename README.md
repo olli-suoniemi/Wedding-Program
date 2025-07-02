@@ -2,10 +2,6 @@
 
 A modern wedding app that also contains form for enrollment. 
 
-The app can be tested in [here](https://boda-fullstack-app.fly.dev/)
-
-Test password for testing is: Test
-
 ## Tech Stack
 
 ### Back
